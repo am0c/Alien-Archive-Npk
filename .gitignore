@@ -1,0 +1,27 @@
+# Auto-created at build time.
+
+/npk
+/npk.tgz
+/blib
+/_build
+
+
+# Auto-created at build time.
+# Not removed by clean action.
+
+/Build
+/_build
+/*.bak
+
+
+# Markers used by builder
+
+/build_done
+
+
+# Backup files
+
+*~
+\#*#
+*.swp
+

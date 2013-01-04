@@ -1,0 +1,63 @@
+{
+   "abstract" : "Alien for neat package system - npk",
+   "author" : [
+      "Hojung Youn <amorette@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Module::Build version 0.4003, CPAN::Meta::Converter version 2.120630",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-Archive-Npk",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Alien::CMake" : "0",
+            "Archive::Tar" : "0",
+            "Digest::SHA" : "0",
+            "ExtUtils::CBuilder" : "0",
+            "File::Basename" : "0",
+            "File::Copy" : "0",
+            "File::Path" : "0",
+            "File::Spec" : "0",
+            "HTTP::Tiny" : "0",
+            "Try::Tiny" : "0",
+            "URI" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Archive::Tar" : "0",
+            "File::Spec" : "0",
+            "Module::Build" : "0.038"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "File::ShareDir" : "1.00",
+            "File::Spec" : "0",
+            "perl" : "v5.8.1"
+         }
+      }
+   },
+   "provides" : {
+      "Alien::Archive::Npk" : {
+         "file" : "lib/Alien/Archive/Npk.pm",
+         "version" : "0.000001_001"
+      }
+   },
+   "release_status" : "testing",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "0.000001_001",
+   "x_npk_project_URL" : "http://code.google.com/p/npk/",
+   "x_npk_project_license" : "MIT License",
+   "x_npk_project_repository" : "http://npk.googlecode.com/svn/trunk/"
+}
