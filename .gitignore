@@ -4,6 +4,8 @@
 /npk.tgz
 /blib
 /_build
+/MYMETA.json
+/MYMETA.yml
 
 
 # Auto-created at build time.
