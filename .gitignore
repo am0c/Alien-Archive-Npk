@@ -23,6 +23,12 @@
 /build_done
 
 
+# Distributions
+
+/Alien-Archive-Npk-*/
+/Alien-Archive-Npk-*.tar.gz
+
+
 # Backup files
 
 *~
