@@ -47,6 +47,12 @@ my $build = My::Build->new(
         keywords => [
             qw/NPK npk neat archive enpack/
         ],
+        resources => {
+            license => 'http://dev.perl.org/licenses/',
+            homepage => 'https://github.com/am0c/Alien-Archive-Npk',
+            bugtracker => 'https://github.com/am0c/Alien-Archive-Npk/issues',
+            repository => 'git://github.com/am0c/Alien-Archive-Npk.git',
+        },
     },
 );
 
