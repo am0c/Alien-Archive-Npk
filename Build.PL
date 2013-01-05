@@ -38,6 +38,9 @@ my $build = My::Build->new(
     share_dir => '_share',
     needs_compiler => 1,
     meta_merge => {
+        'meta-spec' => {
+            version => '1.4',
+        },
         npk_project_URL => "http://code.google.com/p/npk/",
         npk_project_repository => "http://npk.googlecode.com/svn/trunk/",
         npk_project_license => "MIT License",
