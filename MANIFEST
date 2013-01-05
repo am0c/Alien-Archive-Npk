@@ -3,3 +3,5 @@ inc/My/Build.pm
 inc/My/Util.pm
 lib/Alien/Archive/Npk.pm
 MANIFEST
+META.json
+META.yml

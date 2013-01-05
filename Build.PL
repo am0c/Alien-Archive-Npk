@@ -41,6 +41,12 @@ my $build = My::Build->new(
         npk_project_URL => "http://code.google.com/p/npk/",
         npk_project_repository => "http://npk.googlecode.com/svn/trunk/",
         npk_project_license => "MIT License",
+        no_index => {
+            directory => [ 'inc' ],
+        },
+        keywords => [
+            qw/NPK npk neat archive enpack/
+        ],
     },
 );
 
