@@ -38,9 +38,24 @@ my $build = My::Build->new(
     share_dir => '_share',
     needs_compiler => 1,
     meta_merge => {
+        'meta-spec' => {
+            version => '1.4',
+        },
         npk_project_URL => "http://code.google.com/p/npk/",
         npk_project_repository => "http://npk.googlecode.com/svn/trunk/",
         npk_project_license => "MIT License",
+        no_index => {
+            directory => [ 'inc' ],
+        },
+        keywords => [
+            qw/NPK npk neat archive enpack/
+        ],
+        resources => {
+            license => 'http://dev.perl.org/licenses/',
+            homepage => 'https://github.com/am0c/Alien-Archive-Npk',
+            bugtracker => 'https://github.com/am0c/Alien-Archive-Npk/issues',
+            repository => 'git://github.com/am0c/Alien-Archive-Npk.git',
+        },
     },
 );
 

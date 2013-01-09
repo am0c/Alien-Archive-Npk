@@ -4,6 +4,10 @@
 /npk.tgz
 /blib
 /_build
+/MYMETA.json
+/MYMETA.yml
+/META.json
+/META.yml
 
 
 # Auto-created at build time.
@@ -11,12 +15,19 @@
 
 /Build
 /_build
+/_share
 /*.bak
 
 
 # Markers used by builder
 
 /build_done
+
+
+# Distributions
+
+/Alien-Archive-Npk-*/
+/Alien-Archive-Npk-*.tar.gz
 
 
 # Backup files
