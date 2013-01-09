@@ -4,7 +4,7 @@ use Alien::Archive::Npk::ConfigData;
 use File::ShareDir qw(dist_dir);
 use File::Spec::Functions;
 
-our $VERSION = '0.000001_001';
+our $VERSION = '0.000001_002';
 
 our $SUBDIR = Alien::Archive::Npk::ConfigData->config('share_subdir');
 our $DIST = dist_dir('Alien-Archive-Npk');
