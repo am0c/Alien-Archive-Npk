@@ -17,6 +17,8 @@ my $build = My::Build->new(
         'perl' => '5.8.1',
         'File::ShareDir' => 0,
         'File::Spec' => 0,
+        'Alien::CMake' => 0,
+        'Try::Tiny' => 0,
     },
     build_requires => {
         'URI' => 0,
@@ -31,9 +33,11 @@ my $build = My::Build->new(
         'Try::Tiny' => 0,
     },
     configure_requires => {
+        'Alien::CMake' => 0,
         'Module::Build' => '0.038',
         'File::Spec' => 0,
         'Archive::Tar' => 0,
+        'Try::Tiny' => 0,
     },
     share_dir => '_share',
     needs_compiler => 1,
