@@ -127,7 +127,7 @@ sub ACTION_npk_cmake {
         $self->do_chdir($build_dir);
 
         my $cm = catfile(Alien::CMake->config("prefix"), "bin", "cmake");
-        $self->do_system( $cm, "-DDEV_MODE:BOOL=ON", "-DBUILD_SHARED_LIBS:BOOL=ON",
+        $self->do_system( $cm, "-DDEV_MODE:BOOL=ON", "-DBUILD_SHARED_LIBS:BOOL=ON", "-DCMAKE_BUILD_TYPE=Debug",
                           sprintf('-DCMAKE_INSTALL_PREFIX="%s"', $install_dir), ".." ); #XXX
 
         $self->do_system( $cm, "--build", "." );
